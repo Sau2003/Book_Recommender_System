@@ -11,7 +11,8 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 
-books=pd.read_csv('Books.csv')
+books = pd.read_csv('OneDrive/Desktop/Book Recommender system/Books.csv')
+
 ratings=pd.read_csv('Ratings.csv')
 users=pd.read_csv('Users.csv')
 
