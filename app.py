@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.metrics.pairwise import cosine_similarity
 
 # Load data
-books = pd.read_csv('Books.csv')
+books = pd.read_csv('OneDrive/Desktop/Book Recommender system/Books.csv')
 ratings = pd.read_csv('Ratings.csv')
 
 # Merge
